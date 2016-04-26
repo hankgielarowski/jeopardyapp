@@ -2,7 +2,7 @@ angular
   .module('jeopardy')
   .directive('jeopardyReader', function(){
     return {
-      templateUrl: '../../jepApp/templates/jeopardy-reader.html',
+      templateUrl: './jepApp/templates/jeopardy-reader.html',
       restrict: 'E',
       scope: {
         question: '='
