@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/serve",
-    "bundle": "./node_modules/.bin/browserify --entry app.module.js -o bundle.js",
-    "watch": "./node_modules/.bin/watchify --entry app.module.js -o bundle.js"
+    "bundle": "browserify --entry app.module.js -o bundle.js",
+    "watch": "watchify --entry app.module.js -o bundle.js"
   },
   "author": "",
   "license": "ISC",
