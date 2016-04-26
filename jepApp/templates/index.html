@@ -1,0 +1,22 @@
+<div class="row">
+  <h5>this</h5>
+  <h5>is</h5>
+  <h1>Jeopardy</h1>
+</div>
+
+<div class="score">
+  SCORE: {{score}}
+</div>
+  <div class="row">
+
+<div class="col-md-2" ng-repeat="category in HomeCtrl.categories" class="">
+  <!-- <div class="well"> -->
+  <h3>Category: {{ category.data.title }}</h3>
+</div>
+</div>
+<div class="row">
+
+<div class="col-md-2" ng-repeat="category in HomeCtrl.categories" class="">
+  <jeopardy-reader question="category.data"></jeopardy-reader>
+  </div>
+  </div>

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.row{
+
+  text-align: center;
+}
+h1 {
+  font-size: 75px;
+  color:chartreuse;
+  display: inline-block;
+  text-align: center;
+}
+
+body {
+  background-image: url(trebek.jpg);
+  background-size: cover;
+}
+h3,h5 {
+  color: white;
+}
+h5 {
+  font-size: 25px;
+}
+.score {
+  font-size: 25px;
+  color: white;
+}
+button.board {
+
+}
