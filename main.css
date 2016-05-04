@@ -15,7 +15,7 @@ h1 {
 body {
   background-image: url(jeopardy4.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  
   background-position-y: -120px;
 }
 h3,h5 {
